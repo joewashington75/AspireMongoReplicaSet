@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireMongoReplicaSet.API", "AspireMongoReplicaSet.API\AspireMongoReplicaSet.API.csproj", "{EBBF332A-9CC2-4B33-9972-85F635AA6356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireMongoReplicaSet.AppHost", "AspireMongoReplicaSet.AppHost\AspireMongoReplicaSet.AppHost.csproj", "{3C136F33-0DDA-4108-AB4B-85A1DBABB7F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98AF0B2E-87FE-47EF-A442-95CFCA5E1DAF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		Directory.Packages.props = Directory.Packages.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireMongoReplicaSet.ServiceDefaults", "AspireMongoReplicaSet.ServiceDefaults\AspireMongoReplicaSet.ServiceDefaults.csproj", "{EF358D11-4C12-4492-8DD8-BA1A9F5A4983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireMongoReplicaSet.Replica", "AspireMongoReplicaSet.Replica\AspireMongoReplicaSet.Replica.csproj", "{6E1C40CE-D280-422C-AAD9-6DA75B3CFD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireMongoReplicaSet.API.IntegrationTests", "AspireMongoReplicaSet.API.IntegrationTests\AspireMongoReplicaSet.API.IntegrationTests.csproj", "{A43AF931-9BEF-408C-80CB-17D4E0F5C3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBF332A-9CC2-4B33-9972-85F635AA6356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBF332A-9CC2-4B33-9972-85F635AA6356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBF332A-9CC2-4B33-9972-85F635AA6356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBF332A-9CC2-4B33-9972-85F635AA6356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C136F33-0DDA-4108-AB4B-85A1DBABB7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C136F33-0DDA-4108-AB4B-85A1DBABB7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C136F33-0DDA-4108-AB4B-85A1DBABB7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C136F33-0DDA-4108-AB4B-85A1DBABB7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF358D11-4C12-4492-8DD8-BA1A9F5A4983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF358D11-4C12-4492-8DD8-BA1A9F5A4983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF358D11-4C12-4492-8DD8-BA1A9F5A4983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF358D11-4C12-4492-8DD8-BA1A9F5A4983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E1C40CE-D280-422C-AAD9-6DA75B3CFD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1C40CE-D280-422C-AAD9-6DA75B3CFD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1C40CE-D280-422C-AAD9-6DA75B3CFD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1C40CE-D280-422C-AAD9-6DA75B3CFD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43AF931-9BEF-408C-80CB-17D4E0F5C3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43AF931-9BEF-408C-80CB-17D4E0F5C3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43AF931-9BEF-408C-80CB-17D4E0F5C3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43AF931-9BEF-408C-80CB-17D4E0F5C3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
